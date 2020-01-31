@@ -1,0 +1,21 @@
+{
+  "defaultConnection": "default",
+  "connections": {
+    "default": {
+      "connector": "strapi-hook-mongoose",
+      "settings": {
+        "client": "mongo",
+        "host": "ecommercecluster-imt0f.mongodb.net",
+        "srv": true,
+        "port": 27017,
+        "database": "server",
+        "username": "sotomaque",
+        "password": "por!Qkikei7"
+      },
+      "options": {
+        "authenticationDatabase": "",
+        "ssl": true
+      }
+    }
+  }
+}
